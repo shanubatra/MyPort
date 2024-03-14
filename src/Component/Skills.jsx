@@ -22,10 +22,7 @@ export default function Skills() {
               {skills.map((item, index) => {
                 return (
                   <div key={index} className="col-lg-6 mb-3">
-                    <div
-                      className="card card-shadow"
-                      style={{ width: "600px" }}
-                    >
+                    <div className="card card-shadow">
                       <div className="card-body text-center">
                         <h5 className="card-title fw-bold text-main mb-1">
                           {item.title}
