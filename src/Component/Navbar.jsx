@@ -129,7 +129,7 @@ export default function Navbar() {
 
               <a
                 href="/img/My_Cv.pdf"
-                className="m-2 btn btn-pink w-100 fw-bold p-3 "
+                className="m-2 btn btn-pink w-100 fw-bold p-4 "
                 download=""
               >
                 Check Resume
@@ -254,7 +254,7 @@ export default function Navbar() {
 
           <a
             href="/img/My_Cv.pdf"
-            className="m-2 btn btn-pink w-100  fw-bold p-3 "
+            className="m-2 btn btn-pink w-100  fw-bold p-4 "
             download=""
           >
             Check Resume

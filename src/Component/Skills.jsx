@@ -22,7 +22,10 @@ export default function Skills() {
               {skills.map((item, index) => {
                 return (
                   <div key={index} className="col-lg-6 mb-3">
-                    <div className="card card-shadow">
+                    <div
+                      className="card card-shadow"
+                      style={{ width: "600px" }}
+                    >
                       <div className="card-body text-center">
                         <h5 className="card-title fw-bold text-main mb-1">
                           {item.title}
@@ -33,7 +36,7 @@ export default function Skills() {
                               return (
                                 <div
                                   key={index}
-                                  className=" p-2 align-items-baseline m-2 d-flex flex-row card-shadow border "
+                                  className=" p-2 align-items-baseline m-3 d-flex flex-row card-shadow border "
                                   style={{ borderRadius: "20px" }}
                                 >
                                   <span>
