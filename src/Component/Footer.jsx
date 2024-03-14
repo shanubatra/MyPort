@@ -16,7 +16,7 @@ export default function Footer() {
                   <Link
                     className="btn-link text-light"
                     onClick={() => scrollto()}
-                    to="/portfolio"
+                    to="/"
                     style={{ textDecoration: "none" }}
                   >
                     About
@@ -59,7 +59,7 @@ export default function Footer() {
             <span className="text-light">
               <Link
                 style={{ textDecoration: "none" }}
-                to="/portfolio"
+                to="/"
                 className="text-light"
                 onClick={() => scrollto()}
               >

@@ -15,7 +15,7 @@ export default function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/portfolio" element={<About />} />
+          <Route path="/" element={<About />} />
           <Route path="/skill" element={<Skills />} />
           <Route path="/education" element={<Education />} />
           <Route path="/project" element={<Projects />} />

@@ -63,7 +63,7 @@ export default function Navbar() {
                 <ul>
                   <li>
                     <Link
-                      to="/portfolio"
+                      to="/"
                       className="nav-link"
                       onClick={() => scrollto()}
                       style={{ textDecoration: "none" }}
@@ -189,7 +189,7 @@ export default function Navbar() {
             <ul>
               <li>
                 <Link
-                  to="/portfolio"
+                  to="/"
                   className="nav-link scrollto"
                   style={{ textDecoration: "none" }}
                 >
