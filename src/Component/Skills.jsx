@@ -47,7 +47,7 @@ export default function Skills() {
                                   <span
                                     style={{
                                       fontSize: "14px",
-                                      fontWeight: "550",
+                                      fontWeight: "400",
                                       marginRight: "5px",
                                     }}
                                   >
