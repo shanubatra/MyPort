@@ -7,7 +7,7 @@ export default function Footer() {
   }
   return (
     <>
-      <div id="main" className="bg-black">
+      <div id="main" className="bg-black ">
         <div className="container-fluid text-center  py-3">
           <div className="row">
             <footer className="d-flex justify-content-center">

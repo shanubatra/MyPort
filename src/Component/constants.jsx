@@ -1,57 +1,10 @@
-export const app = [
+export const projects = [
   {
-    id: 2,
-    link: "https://github.com/shanubatra/AICTE-Clone.git",
-    title: "AICTE Website Clone",
-    pic: "/img/aicte.png",
-    decription:
-      "A functional application for AICTE website. There is a lot of data or vast information available on AICTE website which calls for an emergent need of a source that just convey the crucial information precisely. Thus, this applcation is built to save time and hectic searching on web to find out any information related to AICTE.",
-    tech: ["Dart", "Flutter", "Firebase"],
-  },
-  {
-    id: 3,
-    link: "https://github.com/shanubatra/Expense-Planer.git",
-    title: "Expense Planer",
-    pic: "/img/expense.png",
-    decription:
-      "This application offers you to track your weekly expenses. This application is made with Flutter and Firebase. Application shows a bar chart that divides your expenses throughout week, it then shows you the history of transactions and at bottom there is an add button to add a transaction with title, amount and date. This application is still in development mode.",
-    tech: ["Dart", "Flutter"],
-  },
-  {
-    id: 4,
-    link: "https://github.com/shanubatra/Meals-App.git",
-    title: "Favorite Meals",
-    pic: "/img/meals.png",
-    decription:
-      "This application offers you to save your favorite meals under different categories and cuisines. This application is made with Flutter and Firebase. This application is still in development mode.",
-    tech: ["Dart", "Flutter"],
-  },
-  {
-    id: 5,
-    link: "https://github.com/shanubatra/Menufy.git",
-    title: "Menufy",
-    pic: "/img/menufy.png",
-    decription:
-      "This application offers you to save your favorite meals under different categories and cuisines. This application is made with Flutter and Firebase. This application is still in development mode.",
-    tech: ["Dart", "Flutter"],
-  },
-  {
-    id: 1,
-    link: "https://github.com/shanubatra/TakeNGo.git",
-    title: "TakeNGo",
-    pic: "/img/takego.png",
-    decription:
-      "An application for delivering goods from one place to another. This application is made with Flutter and Firebase. This application is still in development mode. It has a login page where users can log in with their Google account or mobile number. Then users can enter goods' details and location where they want to deliver. Then application calculates the price according to quantity of goods and delivering distance.",
-    tech: ["Dart", "Flutter", "Firebase", "Firestore", "Google Auth"],
-  },
-];
-export const web = [
-  {
+    type: "web",
     id: 1,
     link: "https://github.com/shanubatra/E-Store-Application.git",
     title: "E-commerce Website",
     pic: "estore.png",
-
     live: "h",
     decription:
       "Discover the latest fashion trends and timeless classics, all in one place. From casual wear to formal attire, our curated collection ensures you stay on-trend effortlessly. Navigate user-friendly categories, find your perfect fit, and redefine your wardrobe with just a few clicks. Embrace the joy of dressing well, effortlessly delivered to your doorstep. Happy shopping!",
@@ -66,18 +19,8 @@ export const web = [
     ],
   },
   {
+    type: "web",
     id: 2,
-    link: "https://github.com/shanubatra/Digital-Newspaper.git",
-    title: " Digital NewsPaper Website",
-    pic: "newspaper.png",
-    live: "h",
-
-    decription:
-      "Immerse yourself in the world of news with our digital newspaper platform. Stay informed with real-time updates, insightful articles, and engaging multimedia content. Navigate through diverse sections effortlessly, from breaking news to in-depth analyses.",
-    tech: ["React JS", "Bootstrap", "JavaScript", "CSS", "Html"],
-  },
-  {
-    id: 3,
     link: "https://github.com/shanubatra/Portfolio.git",
     title: "Portfolio Website",
     pic: "portfolio.png",
@@ -88,7 +31,8 @@ export const web = [
     tech: ["React JS", "Bootstrap", "JavaScript", "CSS", "Html"],
   },
   {
-    id: 6,
+    type: "web",
+    id: 4,
     link: "https://github.com/shanubatra/ToDo-List",
     title: "To-Do List ",
     pic: "todolist.png",
@@ -97,7 +41,8 @@ export const web = [
     tech: ["React Js", "Javascript", "CSS", "Html"],
   },
   {
-    id: 4,
+    type: "web",
+    id: 5,
     link: "https://github.com/shanubatra/TicTacToe.git",
     title: "Tic Tac Toe Game",
     pic: "tictactoe.png",
@@ -105,15 +50,77 @@ export const web = [
       "Explore a curated collection of my work, highlighting a fusion of creativity and proficiency. From design projects to written pieces, each item is a testament to my skills and passion. Navigate seamlessly through sections, gaining insights into my professional journey. ",
     tech: ["JavaScript", "CSS", "Html"],
   },
-
   {
-    id: 5,
+    type: "web",
+    id: 6,
     link: "https://github.com/shanubatra/parallax-effect.git",
     title: "Parallalx Website",
     pic: "parallalx.png",
     decription:
       "Explore a curated collection of my work, highlighting a fusion of creativity and proficiency. From design projects to written pieces, each item is a testament to my skills and passion. Navigate seamlessly through sections, gaining insights into my professional journey. ",
     tech: ["Javascript", "CSS", "Html"],
+  },
+  {
+    type: "app",
+    id: 7,
+    link: "https://github.com/shanubatra/AICTE-Clone.git",
+    title: "AICTE Website Clone",
+    pic: "aicte.png",
+    decription:
+      "A functional application for AICTE website. There is a lot of data or vast information available on AICTE website which calls for an emergent need of a source that just convey the crucial information precisely. Thus, this applcation is built to save time and hectic searching on web to find out any information related to AICTE.",
+    tech: ["Dart", "Flutter", "Firebase"],
+  },
+  {
+    type: "app",
+    id: 8,
+    link: "https://github.com/shanubatra/Expense-Planer.git",
+    title: "Expense Planer",
+    pic: "expense.png",
+    decription:
+      "This application offers you to track your weekly expenses. This application is made with Flutter and Firebase.,Application shows a bar chart that divides your expenses throughout week, it then shows you the history of transactions and at bottom there is an add button to add a transaction with title, amount and date. This application is still in development mode.",
+    tech: ["Dart", "Flutter"],
+  },
+  {
+    type: "web",
+    id: 3,
+    link: "https://github.com/shanubatra/Digital-Newspaper.git",
+    title: " Digital NewsPaper Website",
+    pic: "newspaper.png",
+    live: "h",
+
+    decription:
+      "Immerse yourself in the world of news with our digital newspaper platform. Stay informed with real-time updates, insightful articles, and engaging multimedia content. Navigate through diverse sections effortlessly, from breaking news to in-depth analyses.",
+    tech: ["React JS", "Bootstrap", "JavaScript", "CSS", "Html"],
+  },
+  {
+    type: "app",
+    id: 3,
+    link: "https://github.com/shanubatra/Meals-App.git",
+    title: "Favorite Meals",
+    pic: "meals.png",
+    decription:
+      "This application offers you to save your favorite meals under different categories and cuisines. This application is made with Flutter and Firebase. This application is still in development mode.",
+    tech: ["Dart", "Flutter"],
+  },
+  {
+    type: "app",
+    id: 4,
+    link: "https://github.com/shanubatra/Menufy.git",
+    title: "Menufy",
+    pic: "menufy.png",
+    decription:
+      "This application offers you to save your favorite meals under different categories and cuisines. This application is made with Flutter and Firebase. This application is still in development mode.",
+    tech: ["Dart", "Flutter"],
+  },
+  {
+    type: "app",
+    id: 5,
+    link: "https://github.com/shanubatra/TakeNGo.git",
+    title: "TakeNGo",
+    pic: "takego.png",
+    decription:
+      "An application for delivering goods from one place to another. This application is made with Flutter and Firebase. This application is still in development mode. It has a login page where users can log in with their Google account or mobile number. Then users can enter goods' details and location where they want to deliver. Then application calculates the price according to quantity of goods and delivering distance.",
+    tech: ["Dart", "Flutter", "Firebase", "Firestore", "Google Auth"],
   },
 ];
 
@@ -123,52 +130,52 @@ export const skills = [
     skills: [
       {
         name: "React Js",
-        image: "/img/skills/react.jpg",
+        image: "skills/react.jpg",
       },
       {
         name: "Redux",
-        image: "/img/skills/Redux.jpg",
+        image: "skills/Redux.jpg",
       },
       {
         name: "Redux-Saga",
-        image: "/img/skills/Redux.jpg",
+        image: "skills/Redux.jpg",
       },
       {
         name: "HTML",
-        image: "/img/skills/HTML.png",
+        image: "skills/HTML.png",
       },
       {
         name: "CSS",
-        image: "/img/skills/CSS.png",
+        image: "skills/CSS.png",
       },
       {
         name: "JavaScript",
-        image: "/img/skills/JAVASCRIPT.jpg",
+        image: "skills/JAVASCRIPT.jpg",
       },
       {
         name: "TypeScript",
-        image: "/img/skills/typescript.jpg",
+        image: "skills/typescript.jpg",
       },
 
       {
         name: "Bootstrap",
-        image: "/img/skills/b.png",
+        image: "skills/b.png",
       },
       {
         name: "Material UI",
-        image: "/img/skills/MaterialUI.svg",
+        image: "skills/MaterialUI.svg",
       },
       {
         name: "Tailwind",
-        image: "/img/skills/Tailwind.png",
+        image: "skills/Tailwind.png",
       },
       {
         name: "Flutter",
-        image: "/img/skills/flutter.png",
+        image: "skills/flutter.png",
       },
       {
         name: "Dart",
-        image: "/img/skills/dart.png",
+        image: "skills/dart.png",
       },
     ],
   },
@@ -177,17 +184,17 @@ export const skills = [
     skills: [
       {
         name: "MySQL",
-        image: "/img/skills/mysql.png",
+        image: "skills/mysql.png",
       },
 
       {
         name: "JSON",
-        image: "/img/skills/jdon.png",
+        image: "skills/jdon.png",
       },
 
       {
         name: "Firebase",
-        image: "/img/skills/firebase.svg",
+        image: "skills/firebase.svg",
       },
     ],
   },
@@ -196,25 +203,22 @@ export const skills = [
     skills: [
       {
         name: "VS Code",
-        image: "/img/skills/vscode.png",
+        image: "skills/vscode.png",
       },
       {
         name: "Git",
-        image: "/img/skills/Git.jpg",
+        image: "skills/Git.jpg",
       },
       {
         name: "React DevTools",
-        image: "/img/skills/react.jpg",
+        image: "skills/react.jpg",
       },
 
       {
         name: "Dart DevTools",
-        image: "/img/skills/dart.png",
+        image: "skills/dart.png",
       },
-      {
-        name: "Android Studio",
-        image: "/img/skills/andstudio.png",
-      },
+      { name: "Android Studio", image: "skills/andstudio.png" },
     ],
   },
   {
@@ -222,24 +226,87 @@ export const skills = [
     skills: [
       {
         name: "Python",
-        image: "/img/skills/python.png",
+        image: "skills/python.png",
       },
       {
         name: "GitHub",
-        image: "/img/skills/Github.svg",
+        image: "skills/Github.svg",
       },
       {
         name: "Netlify",
-        image: "/img/skills/netlify.png",
+        image: "skills/netlify.png",
       },
       {
         name: "C++",
-        image: "/img/skills/c++.png",
+        image: "skills/c++.png",
       },
       {
         name: "AWS",
-        image: "/img/skills/aws.png",
+        image: "skills/aws.png",
       },
     ],
+  },
+];
+
+export const education = [
+  {
+    id: 0,
+    name: "PANIPAT INSTITUTE OF ENGINEERING AND TECHNOLOGY, PANIPAT",
+    course: "Bachelor of technology - Btech, Computer Science and engineering",
+    grade: "7.8 C.G.P.A",
+    year: "Aug 2019 - July 2023",
+    decription:
+      "I Have A Bachelor's Degree In Computer Science And Engineering At Panipat Institute Of Engineering And Technology, Panipat.",
+  },
+  {
+    id: 1,
+    name: "Hindu Vidya Peeth School,Sonipat",
+    course: "CBSE(XII), Non-Medical With I.P. Stream",
+    grade: "74%",
+    year: "Apr 2018 - Apr 2019",
+    decription:
+      "I Completed My Class 12 High School Education At Hindu Vidya Peeth School Sonipat",
+  },
+  {
+    id: 2,
+    name: "Hindu Vidya Peeth School,Sonipat",
+    course: "CBSE(X)",
+    grade: "7.4 C.G.P.A",
+    year: "Apr 2018 - Apr 2019",
+    decription:
+      "I Completed My Class 10 Education At Hindu Vidya Peeth School Sonipat",
+  },
+];
+
+export const course = [
+  {
+    id: 0,
+    name: "PHP Full Stack WEB Development",
+    course: "Ducat-The IT Training School",
+    year: "Oct 2023 - Present",
+    li1: "The PHP Full Stack Courses covers a comprehensive range of WEB Development topics includes Front-end Development and Back-end Development programming languages as well as popular frameworks like Laravel and React etc.",
+    li2: "Engaged in comprehensive training covering HTML, CSS,   JavaScript, Bootstrap, React.JS, React-Redux and Redux-Saga.",
+    li3: "It concludes with a capstone project allowing us to   showcase their acquired skills iin a real-world   applications",
+    li4: "Anticipating further modules covering PHP and other    additional technologies in the upcoming Phases of the    training.",
+  },
+  {
+    id: 1,
+    name: "Python programming Language",
+    course: "Udemy",
+    year: "July 2023 - Sept 2018",
+    li1: "The introductory phase of the Python Course, spanning the first month, focuses primarliy on basic of OPPS    programming concepts.",
+    li2: "It covers all python syntax, data types, conditional    statements ,loops and basic functions etc.",
+    li3: "This foundational knowledge provides a solid understanding for those new to programming Language.",
+    li4: "",
+  },
+  {
+    id: 3,
+    name: "Flutter & Dart-The Complete Guide ",
+    course: "Udemy",
+    year: "July 2023 - Sept 32018",
+    li1: "I learnt Flutter Framework for building native iOS and Android apps",
+    li2: "",
+    li3: "",
+    li4: "",
   },
 ];

@@ -33,12 +33,12 @@ export default function Skills() {
                               return (
                                 <div
                                   key={index}
-                                  className=" p-3 align-items-baseline m-2 d-flex flex-row card-shadow border "
+                                  className=" p-2 align-items-baseline m-2 d-flex flex-row card-shadow border "
                                   style={{ borderRadius: "20px" }}
                                 >
                                   <span>
                                     <img
-                                      src={item.image}
+                                      src={`/img/${item.image}`}
                                       id="skills-item"
                                       alt={item.name}
                                       style={{ width: "35px" }}
