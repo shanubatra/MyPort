@@ -33,7 +33,7 @@ export default function Skills() {
                               return (
                                 <div
                                   key={index}
-                                  className=" p-2 align-items-baseline m-3 d-flex flex-row card-shadow border "
+                                  className=" p-2 align-items-baseline m-2 d-flex flex-row card-shadow border "
                                   style={{ borderRadius: "20px" }}
                                 >
                                   <span>
