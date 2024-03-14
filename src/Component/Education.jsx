@@ -19,10 +19,10 @@ export default function Education() {
               </p>
             </div>
             <div className="row mt-0 ">
-              <div className="col-lg-7">
+              <div className="col-lg-7 mb-1">
                 {education.map((item, index) => {
                   return (
-                    <div key={index} className="resume-item">
+                    <div key={index} className="resume-item mb-1">
                       <h4>{item.name}</h4>
                       <p>
                         <em>{item.course}</em>

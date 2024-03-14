@@ -6,13 +6,13 @@ export default function Error() {
     <>
       {/* <!-- 404 Start --> */}
       <div className="container-fluid py-5 mb-5">
-        <div className="container py-5 text-center mb-5 fw-bold">
-          <div className="row justify-content-center mb-4">
+        <div className="container py-5 text-center fw-bold">
+          <div className="row justify-content-center">
             <div className="col-lg-6">
               <i className="bi bi-exclamation-triangle display-1 text-danger"></i>
               <h1 className="display-1 mb-4">404</h1>
               <h1 className="mb-4">Page Not Found</h1>
-              <p className="mb-4">
+              <p className="mb-2">
                 We’re sorry, the page you have looked for does not exist in our
                 website!
               </p>
