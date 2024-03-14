@@ -33,7 +33,7 @@ export default function Skills() {
                               return (
                                 <div
                                   key={index}
-                                  className=" p-2 align-items-baseline m-2 d-flex flex-row card-shadow border "
+                                  className=" p-3 align-items-baseline m-2 d-flex flex-row card-shadow border "
                                   style={{ borderRadius: "20px" }}
                                 >
                                   <span>
@@ -49,6 +49,7 @@ export default function Skills() {
                                       fontSize: "14px",
                                       fontWeight: "400",
                                       marginRight: "5px",
+                                      padding: "5px 5px 5px 1px",
                                     }}
                                   >
                                     {item.name}
