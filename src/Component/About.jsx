@@ -48,7 +48,7 @@ export default function About() {
                 solutions that not only meet but exceed expectations.Through
                 each project, my objective is to push boundaries, spark
                 curiosity and leave an indelible mark on the ever-evoling canvas
-                of the digital realm.
+                of the digital realme.
               </p>
             </div>
           </div>

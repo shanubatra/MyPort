@@ -16,13 +16,15 @@ export default function Footer() {
                   <Link
                     className="btn-link text-light"
                     onClick={() => scrollto()}
-                    to="/"
+                    to="/portfolio"
+                    style={{ textDecoration: "none" }}
                   >
                     About
                   </Link>
                   <Link
                     className="btn-link text-light"
                     onClick={() => scrollto()}
+                    style={{ textDecoration: "none" }}
                     to="/skill"
                   >
                     Skills
@@ -30,6 +32,7 @@ export default function Footer() {
                   <Link
                     className="btn-link text-light"
                     onClick={() => scrollto()}
+                    style={{ textDecoration: "none" }}
                     to="/course"
                   >
                     Courses
@@ -37,6 +40,7 @@ export default function Footer() {
                   <Link
                     className="btn-link text-light"
                     onClick={() => scrollto()}
+                    style={{ textDecoration: "none" }}
                     to="/education"
                   >
                     Education
@@ -44,6 +48,7 @@ export default function Footer() {
                   <Link
                     className="btn-link text-light"
                     onClick={() => scrollto()}
+                    style={{ textDecoration: "none" }}
                     to="/project"
                   >
                     Projects
@@ -52,7 +57,12 @@ export default function Footer() {
               </div>
             </footer>
             <span className="text-light">
-              <Link to="/" className="text-light" onClick={() => scrollto()}>
+              <Link
+                style={{ textDecoration: "none" }}
+                to="/portfolio"
+                className="text-light"
+                onClick={() => scrollto()}
+              >
                 <i className="fas fa-copyright text-light me-2"></i>Shanu Batra
               </Link>
               , All right reserved.

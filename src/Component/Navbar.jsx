@@ -24,7 +24,9 @@ export default function Navbar() {
                   className="img-fluid rounded-circle"
                 />
                 <h1 className="text-light">
-                  <Link to="/">Shanu Batra</Link>
+                  <Link to="/" style={{ textDecoration: "none" }}>
+                    Shanu Batra
+                  </Link>
                 </h1>
                 <div className="social-links mt-4 text-center">
                   <a
@@ -54,13 +56,17 @@ export default function Navbar() {
                 </div>
               </div>
 
-              <nav id="navbar" className="nav-menu navbar">
+              <nav
+                id="navbar"
+                className="nav-menu navbar justify-content-start"
+              >
                 <ul>
                   <li>
                     <Link
-                      to="/"
+                      to="/portfolio"
                       className="nav-link"
                       onClick={() => scrollto()}
+                      style={{ textDecoration: "none" }}
                     >
                       <i className="fa fa-address-card"></i> <span>About</span>
                     </Link>
@@ -71,6 +77,7 @@ export default function Navbar() {
                       to="/education"
                       className="nav-link"
                       onClick={() => scrollto()}
+                      style={{ textDecoration: "none" }}
                     >
                       <i className="fa fa-graduation-cap"></i>{" "}
                       <span>Education</span>
@@ -81,6 +88,7 @@ export default function Navbar() {
                       to="/course"
                       className="nav-link"
                       onClick={() => scrollto()}
+                      style={{ textDecoration: "none" }}
                     >
                       <i className="fa fa-award"></i> <span>Course</span>
                     </Link>
@@ -90,6 +98,7 @@ export default function Navbar() {
                       to="/skill"
                       className="nav-link"
                       onClick={() => scrollto()}
+                      style={{ textDecoration: "none" }}
                     >
                       <i className="fa fa-puzzle-piece"></i> <span>Skills</span>
                     </Link>
@@ -99,6 +108,7 @@ export default function Navbar() {
                       to="/project"
                       className="nav-link"
                       onClick={() => scrollto()}
+                      style={{ textDecoration: "none" }}
                     >
                       <i className="fa fa-laptop-code"></i>{" "}
                       <span>Projects</span>
@@ -109,6 +119,7 @@ export default function Navbar() {
                       to="/contact"
                       className="nav-link"
                       onClick={() => scrollto()}
+                      style={{ textDecoration: "none" }}
                     >
                       <i className="fa fa-mobile"></i> <span>Contact</span>
                     </Link>
@@ -116,7 +127,11 @@ export default function Navbar() {
                 </ul>
               </nav>
 
-              <a href="/img/My_Cv.pdf" className="m-2 btn btn-pink" download="">
+              <a
+                href="/img/My_Cv.pdf"
+                className="m-2 btn btn-pink w-100 p-4 fw-bold  "
+                download=""
+              >
                 Check Resume
               </a>
             </div>
@@ -138,7 +153,9 @@ export default function Navbar() {
               className="img-fluid rounded-circle"
             />
             <h1 className="text-light">
-              <Link to="/">Shanu Batra</Link>
+              <Link to="/" style={{ textDecoration: "none" }}>
+                Shanu Batra
+              </Link>
             </h1>
             <div className="social-links mt-4 text-center">
               <a
@@ -168,10 +185,14 @@ export default function Navbar() {
             </div>
           </div>
 
-          <nav id="navbar" className="nav-menu navbar">
+          <nav id="navbar" className="nav-menu navbar justify-content-start">
             <ul>
               <li>
-                <Link to="/" className="nav-link scrollto ">
+                <Link
+                  to="/portfolio"
+                  className="nav-link scrollto"
+                  style={{ textDecoration: "none" }}
+                >
                   <i className="fa fa-address-card"></i> <span>About</span>
                 </Link>
               </li>
@@ -180,9 +201,10 @@ export default function Navbar() {
                 <Link
                   to="/education"
                   className="nav-link"
+                  style={{ textDecoration: "none" }}
                   onClick={() => scrollto()}
                 >
-                  <i className="fa fa-graduation-cap"></i>{" "}
+                  <i className="fa fa-graduation-cap"></i>
                   <span>Education</span>
                 </Link>
               </li>
@@ -191,8 +213,10 @@ export default function Navbar() {
                   to="/course"
                   className="nav-link"
                   onClick={() => scrollto()}
+                  style={{ textDecoration: "none" }}
                 >
-                  <i className="fa fa-award"></i> <span>Course</span>
+                  <i className="fa fa-award"></i>
+                  <span>Course</span>
                 </Link>
               </li>
               <li>
@@ -200,6 +224,7 @@ export default function Navbar() {
                   to="/skill"
                   className="nav-link"
                   onClick={() => scrollto()}
+                  style={{ textDecoration: "none" }}
                 >
                   <i className="fa fa-puzzle-piece"></i> <span>Skills</span>
                 </Link>
@@ -209,6 +234,7 @@ export default function Navbar() {
                   to="/project"
                   className="nav-link"
                   onClick={() => scrollto()}
+                  style={{ textDecoration: "none" }}
                 >
                   <i className="fa fa-laptop-code"></i> <span>Projects</span>
                 </Link>
@@ -218,6 +244,7 @@ export default function Navbar() {
                   to="/contact"
                   className="nav-link"
                   onClick={() => scrollto()}
+                  style={{ textDecoration: "none" }}
                 >
                   <i className="fa fa-mobile"></i> <span>Contact</span>
                 </Link>
@@ -225,7 +252,11 @@ export default function Navbar() {
             </ul>
           </nav>
 
-          <a href="/img/My_Cv.pdf" className="m-2 btn btn-pink" download="">
+          <a
+            href="/img/My_Cv.pdf"
+            className="m-2 btn btn-pink w-100 p-4 fw-bold  "
+            download=""
+          >
             Check Resume
           </a>
         </div>
