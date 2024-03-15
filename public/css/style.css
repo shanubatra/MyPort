@@ -732,7 +732,7 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #272829;
+  color: #272829 !important;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -741,14 +741,20 @@ section {
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
+.portfolio #portfolio-flters li a {
+  color: black !important;
+}
 
 .right-border {
   border-right: 2px #173a6c solid;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
-  color: #0454c4;
+.portfolio #portfolio-flters li a:hover {
+  color: #0454c4 !important;
+}
+
+.portfolio #portfolio-flters a.active:focus {
+  color: #0454c4 !important;
 }
 
 .portfolio #portfolio-flters li:last-child {

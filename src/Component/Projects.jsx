@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { projects } from "./constants";
 import ProjectDetails from "./ProjectDetails";
+import { NavLink } from "react-router-dom";
 export default function Projects() {
   let [type, setType] = useState("all");
 
@@ -25,16 +26,21 @@ export default function Projects() {
             <div className="row position-relative">
               <div className="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
-                  <li
-                    className="filter-active right-border"
-                    onClick={() => setType("all")}
-                  >
-                    All
+                  <li className="right-border" onClick={() => setType("all")}>
+                    <NavLink style={{ textDecoration: "none" }} to="#">
+                      All
+                    </NavLink>
                   </li>
-                  <li className="right-border " onClick={() => setType("web")}>
-                    Web
+                  <li className="right-border" onClick={() => setType("web")}>
+                    <NavLink style={{ textDecoration: "none" }} to="#">
+                      Web
+                    </NavLink>
                   </li>
-                  <li onClick={() => setType("app")}>App</li>
+                  <li onClick={() => setType("app")}>
+                    <NavLink style={{ textDecoration: "none" }} to="#">
+                      App
+                    </NavLink>
+                  </li>
                 </ul>
               </div>
               <div className="col-lg-12 col-md-9 d-flex flex-wrap justify-content-center">
