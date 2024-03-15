@@ -2,7 +2,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Caveat" !important;
+  font-family: "Kurale" !important;
 
 }
 
@@ -43,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Caveat" !important;
+  font-family: "Kurale" !important;
 }
 
 /*--------------------------------------------------------------
@@ -111,7 +111,7 @@ h6 {
   -moz-text-align-last: center;
   text-align-last: center;
 
-  font-family: "Caveat" !important;
+  font-family: "Kurale" !important;
   overflow-x: hidden;
 
 }
@@ -204,7 +204,7 @@ h6 {
   -moz-text-align-last: center;
   text-align-last: center;
 
-  font-family: "Caveat" !important;
+  font-family: "Kurale" !important;
   overflow: hidden;
 
 }
@@ -436,7 +436,7 @@ h6 {
   margin-bottom: 15px;
   font-size: 26px;
 
-  font-family: "Caveat" !important;
+  font-family: "Kurale" !important;
   overflow: hidden;
 }
 
@@ -577,7 +577,7 @@ section {
   color: #122f57;
   font-size: 15px;
 
-  font-family: "Caveat" !important;
+  font-family: "Kurale" !important;
   transition: ease-in-out 0.3s;
 }
 
@@ -603,7 +603,7 @@ section {
   display: block;
   font-weight: 600;
 
-  font-family: "Caveat" !important;
+  font-family: "Kurale" !important;
   color: #050d18;
 }
 
@@ -669,7 +669,7 @@ section {
   font-weight: bold;
   text-transform: uppercase;
 
-  font-family: "Caveat" !important;
+  font-family: "Kurale" !important;
   color: #092f65;
   margin-bottom: 10px;
   overflow: hidden;
@@ -681,7 +681,7 @@ section {
   font-weight: 300;
   text-transform: capitalize;
 
-  font-family: "Caveat" !important;
+  font-family: "Kurale" !important;
   color: black;
   overflow: hidden;
 }
