@@ -222,7 +222,7 @@ h6 {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 #mobileheader .profile .social-links .linkedin:hover {
@@ -1030,6 +1030,7 @@ section {
   height: 36px;
   transition: 0.3s;
   margin-right: 10px;
+
 }
 
 .contact .info .social-links a:hover {
