@@ -246,6 +246,10 @@ export const skills = [
         name: "AWS",
         image: "skills/aws.png",
       },
+      {
+        name: "Vercel",
+        image: "skills/vercel.jpg",
+      },
     ],
   },
 ];
