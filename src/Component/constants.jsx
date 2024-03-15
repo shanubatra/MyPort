@@ -24,7 +24,7 @@ export const projects = [
     link: "https://github.com/shanubatra/Portfolio.git",
     title: "Portfolio Website",
     pic: "portfolio.png",
-    live: "h",
+    live: "https://shanubatra-portfolio.vercel.app/",
 
     decription:
       "Explore a curated collection of my work, highlighting a fusion of creativity and proficiency. From design projects to written pieces, each item is a testament to my skills and passion. Navigate seamlessly through sections, gaining insights into my professional journey. ",
@@ -35,6 +35,7 @@ export const projects = [
     id: 4,
     link: "https://github.com/shanubatra/ToDo-List",
     title: "To-Do List ",
+    live:"https://todolist-ashy-six.vercel.app/",
     pic: "todolist.png",
     decription:
       " create and manage tasks effortlessly with our intuitive To-Do List application. Stay Organized by prioritizing your activities and categorizing tasks.",
@@ -46,6 +47,7 @@ export const projects = [
     link: "https://github.com/shanubatra/TicTacToe.git",
     title: "Tic Tac Toe Game",
     pic: "tictactoe.png",
+    live:"https://tic-tac-toe-iota-five-44.vercel.app/",
     decription:
       "Explore a curated collection of my work, highlighting a fusion of creativity and proficiency. From design projects to written pieces, each item is a testament to my skills and passion. Navigate seamlessly through sections, gaining insights into my professional journey. ",
     tech: ["JavaScript", "CSS", "Html"],
