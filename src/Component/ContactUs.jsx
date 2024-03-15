@@ -57,7 +57,10 @@ export default function ContactUs() {
               <div className="col-lg-5 d-flex align-items-stretch">
                 <div className="info">
                   <div className="address">
-                    <a href="https://www.google.com/maps">
+                    <a
+                      href="https://www.google.com/maps"
+                      style={{ textDecoration: "none" }}
+                    >
                       <i className="fa fa-location-dot"></i>
                       <h4>Location:</h4>
                       <p>Hno-30/1 Tara Nagar,Sonipat</p>
@@ -65,7 +68,10 @@ export default function ContactUs() {
                   </div>
 
                   <div className="email">
-                    <a href="mailto:shanubatra128@gmail.com">
+                    <a
+                      href="mailto:shanubatra128@gmail.com"
+                      style={{ textDecoration: "none" }}
+                    >
                       <i className="fa fa-envelope"></i>
                       <h4>Email:</h4>
                       <p>Shanubatra128@gmail.com</p>
@@ -73,14 +79,20 @@ export default function ContactUs() {
                   </div>
 
                   <div className="phone">
-                    <a href="tel:+919138363536">
+                    <a
+                      href="tel:+919138363536"
+                      style={{ textDecoration: "none" }}
+                    >
                       <i className="fa fa-mobile"></i>
                       <h4>Call:</h4>
                       <p>+91-9138363536</p>
                     </a>
                   </div>
                   <div className="phone">
-                    <a href="https://wa.me/+9138363536">
+                    <a
+                      href="https://wa.me/+9138363536"
+                      style={{ textDecoration: "none" }}
+                    >
                       <i className="fab fa-whatsapp"></i>
                       <h4>Whatsapp:</h4>
                       <p>+91-9138363536</p>
@@ -146,7 +158,7 @@ export default function ContactUs() {
                     ></textarea>
                   </div>
                   <div className="text-center">
-                    <button type="submit" className="btn-bg">
+                    <button type="submit" className=" btn-pink btn fw-bold">
                       Send Message
                     </button>
                   </div>
