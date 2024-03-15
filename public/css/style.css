@@ -5,6 +5,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .text-main {
@@ -88,7 +89,7 @@ h6 {
   transition: all 0.5s;
   padding: 0 15px;
   background: #040b14;
-  overflow-y: auto;
+  overflow: hidden !important;
 }
 
 #header .profile img {
@@ -106,7 +107,7 @@ h6 {
   -moz-text-align-last: center;
   text-align-last: center;
   font-family: "Poppins", sans-serif;
-  overflow-y: hidden;
+  overflow-x: hidden;
 
 }
 
@@ -128,7 +129,7 @@ h6 {
   text-align: center;
   width: 36px;
   height: 36px;
-  overflow-y: hidden;
+  overflow-y: hidden !important;
 
   transition: 0.3s;
 }
@@ -174,8 +175,7 @@ h6 {
   transition: all 0.5s;
   padding: 0 15px;
   background: rgba(0, 0, 0, .5);
-  ;
-  overflow: hidden;
+  overflow: hidden !important;
 
 }
 
@@ -194,7 +194,7 @@ h6 {
   -moz-text-align-last: center;
   text-align-last: center;
   font-family: "Poppins", sans-serif;
-  overflow-y: hidden;
+  overflow: hidden;
 
 }
 
@@ -217,7 +217,7 @@ h6 {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 #mobileheader .profile .social-links .linkedin:hover {
@@ -239,7 +239,48 @@ h6 {
   text-decoration: none;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1300px) {
+  #main {
+    margin-left: 160px;
+    overflow: hidden;
+  }
+
+  #header {
+    width: 160px;
+  }
+
+  #header .profile img {
+    width: 120px;
+    /* border: ; */
+  }
+
+  #header .profile h1 {
+    font-size: 20px;
+  }
+
+  #header .profile .social-links a {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+
+  .nav-menu .nav-link {
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .nav-menu .nav-link i {
+    font-size: 20px;
+    padding-right: 5px;
+  }
+
+  .btn-pink {
+    font-size: 14px;
+    padding: 10px !important;
+  }
+}
+
+@media (max-width: 1205px) {
   #header {
     left: -300px;
   }
@@ -247,13 +288,6 @@ h6 {
   #main {
     margin-left: 0;
   }
-
-  .wave {
-    background: no-repeat bottom url('/img/wave-haikei.svg');
-    background-size: right;
-
-  }
-
 
   .container,
   .container-fluid {
@@ -337,7 +371,7 @@ h6 {
 }
 
 .mobile-nav-active {
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .mobile-nav-active {
@@ -352,6 +386,7 @@ h6 {
   height: 100vh;
   background: url("/img/port-bg.jpg") top center;
   background-size: cover;
+  overflow-x: hidden !important;
 }
 
 #hero:before {
@@ -367,6 +402,7 @@ h6 {
 
 #hero .hero-container {
   position: relative;
+  overflow-x: hidden;
   z-index: 2;
   min-width: 300px;
 }
@@ -393,13 +429,17 @@ h6 {
   padding-bottom: 0;
   letter-spacing: 1px;
   border-bottom: 3px solid #173a6ca1;
-
   overflow: hidden;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1424px) {
   #hero {
     background-attachment: fixed;
+    overflow: hidden !important;
+  }
+
+  body {
+    overflow-x: hidden !important;
   }
 }
 
@@ -536,6 +576,7 @@ section {
   display: block;
   background: none;
   border-radius: 0;
+  overflow: hidden;
 }
 
 .skills .progress .skill {
@@ -719,7 +760,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(171, 170, 170, 0.5);
   position: absolute;
   left: 0;
   right: 0;
@@ -763,6 +804,7 @@ section {
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   background: #173b6c;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -772,7 +814,8 @@ section {
   bottom: 0;
   opacity: 1;
   z-index: 1;
-  background: linear-gradient(#173a6cc6, #06060796)
+  /* background: linear-gradient(#173a6cc6, #06060796) !important; */
+  background-color: rgba(25, 25, 25, 0.659) !important;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
@@ -1215,6 +1258,7 @@ section {
   font-size: 16px;
   cursor: pointer;
   transition: all 0.5s;
+  /* padding: 10px 15px !important; */
   font-weight: 700;
   border: solid 3px transparent;
   position: relative;
@@ -1242,7 +1286,7 @@ section {
 
 .btn-pink:hover {
   border: solid 3px #164e9d;
-  color: black;
+  color: black !important;
 }
 
 
