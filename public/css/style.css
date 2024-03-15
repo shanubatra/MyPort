@@ -111,11 +111,15 @@ h6 {
 
 }
 
+#header .profile h1 {
+  overflow: hidden !important;
+
+}
+
 #header .profile h1 a,
 #header .profile h1 a:hover {
   color: #fff;
   text-decoration: none;
-  overflow: hidden;
 }
 
 #header .profile .social-links a {
