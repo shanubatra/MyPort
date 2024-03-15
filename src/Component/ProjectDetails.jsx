@@ -21,8 +21,23 @@ export default function ProjectDetails({ item, index }) {
           />
         </div>
         <div className="portfolio-links">
-          <h2 className="m-2">{item.title}</h2>
-          <p className="p-3 text-capitalize">{item.decription}</p>
+          <h2
+            className="m-2"
+            style={{
+              color: "#173a6c",
+              fontWeight: "700",
+            }}
+          >
+            {item.title}
+          </h2>
+          <p
+            className="p-3 text-capitalize text-dark"
+            style={{
+              fontWeight: "700",
+            }}
+          >
+            {item.decription}
+          </p>
           <div>
             <a
               href={item.link}

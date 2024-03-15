@@ -12,7 +12,7 @@ export default function About() {
       <div>
         <div
           id="hero"
-          className="d-flex flex-column justify-content-center align-items-center"
+          className="d-flex flex-column ps-2 justify-content-center align-items-center"
         >
           <div className="d-flex justify-content-between flex-wrap" id="main">
             <div className="text-center ms-2 mb-3">

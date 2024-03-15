@@ -191,7 +191,10 @@ export default function Navbar() {
               </div>
             </div>
 
-            <nav id="navbar" className="nav-menu navbar justify-content-start">
+            <nav
+              id="navbar"
+              className="nav-menu mb-2 navbar justify-content-start"
+            >
               <ul>
                 <li>
                   <Link

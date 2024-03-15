@@ -254,6 +254,10 @@ h6 {
     width: 160px;
   }
 
+  .nav-menu {
+    padding: 0;
+  }
+
   #header .profile img {
     width: 120px;
     /* border: ; */
@@ -306,7 +310,7 @@ h6 {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
-  padding: 30px 0 0 0;
+  padding: 10px 0 0 0;
 }
 
 .nav-menu * {
@@ -825,8 +829,7 @@ section {
   bottom: 0;
   opacity: 1;
   z-index: 1;
-  /* background: linear-gradient(#173a6cc6, #06060796) !important; */
-  background-color: rgba(25, 25, 25, 0.659) !important;
+  background-color: rgba(255, 255, 255, 0.767) !important;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
