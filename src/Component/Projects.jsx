@@ -26,17 +26,28 @@ export default function Projects() {
             <div className="row position-relative">
               <div className="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
-                  <li className="right-border" onClick={() => setType("all")}>
+                  <li
+                    className="right-border"
+                    style={{ overflow: "hidden" }}
+                    onClick={() => setType("all")}
+                  >
                     <NavLink style={{ textDecoration: "none" }} to="#">
                       All
                     </NavLink>
                   </li>
-                  <li className="right-border" onClick={() => setType("web")}>
+                  <li
+                    className="right-border"
+                    style={{ overflow: "hidden" }}
+                    onClick={() => setType("web")}
+                  >
                     <NavLink style={{ textDecoration: "none" }} to="#">
                       Web
                     </NavLink>
                   </li>
-                  <li onClick={() => setType("app")}>
+                  <li
+                    style={{ overflow: "hidden" }}
+                    onClick={() => setType("app")}
+                  >
                     <NavLink style={{ textDecoration: "none" }} to="#">
                       App
                     </NavLink>
@@ -48,18 +59,18 @@ export default function Projects() {
                   ? projects
                       .sort((a, b) => a.id - b.id)
                       .map((item, index) => {
-                        return <ProjectDetails item={item} index={index} />;
+                        return <ProjectDetails item={item} key={index} />;
                       })
                   : type === "web"
                   ? projects
                       .filter((item) => item.type === "web")
                       .map((item, index) => {
-                        return <ProjectDetails item={item} index={index} />;
+                        return <ProjectDetails item={item} key={index} />;
                       })
                   : projects
                       .filter((item) => item.type === "app")
                       .map((item, index) => {
-                        return <ProjectDetails item={item} index={index} />;
+                        return <ProjectDetails item={item} key={index} />;
                       })}
               </div>
             </div>

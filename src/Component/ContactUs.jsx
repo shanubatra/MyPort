@@ -101,7 +101,7 @@ export default function ContactUs() {
                 </div>
               </div>
 
-              <div className="col-lg-7 mt-4 mt-lg-0 d-flex align-items-stretch ">
+              <div className="col-lg-7 mt-4 mt-lg0 d-flex align-items-stretch ">
                 <form className="php-email-form" onSubmit={postData}>
                   {message === "" ? (
                     <p className="text-center text-capitalize text-success fw-bold">

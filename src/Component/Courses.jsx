@@ -21,10 +21,9 @@ export default function Courses() {
             </div>
             <div className="row">
               <div className="col-lg-6">
-
                 {course.map((item, index) => {
                   return (
-                    <div className="resume-item mb-3">
+                    <div key={index} className="resume-item mb-3">
                       <h4>{item.name} </h4>
                       <p>
                         <em>{item.course}</em>

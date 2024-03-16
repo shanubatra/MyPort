@@ -9,8 +9,9 @@ body {
 body {
   color: #272829;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
+
+
 
 .text-main {
   color: #173a6c;
@@ -53,7 +54,7 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
+  right: 35px;
   bottom: 15px;
   z-index: 996;
   background: #173a6c !important;
@@ -87,7 +88,7 @@ h6 {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 250px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
@@ -165,7 +166,7 @@ h6 {
 
 
 #main {
-  margin-left: 300px;
+  margin-left: 250px !important;
 }
 
 .container,
@@ -252,7 +253,7 @@ h6 {
 
 @media (max-width: 1300px) {
   #main {
-    margin-left: 160px;
+    margin-left: 160px !important;
     overflow: hidden;
   }
 
@@ -301,7 +302,7 @@ h6 {
   }
 
   #main {
-    margin-left: 0;
+    margin-left: 0 !important;
   }
 
   .container,
@@ -422,6 +423,10 @@ h6 {
   min-width: 300px;
 }
 
+.cursorSize {
+  font-size: 32px;
+}
+
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
@@ -435,20 +440,23 @@ h6 {
   color: #fff;
   margin-bottom: 15px;
   font-size: 26px;
-
   font-family: "Kurale" !important;
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 #hero p span {
   color: #fff;
-  padding-bottom: 0;
+  padding-bottom: 0px;
   letter-spacing: 1px;
   border-bottom: 3px solid #173a6ca1;
   overflow: hidden;
 }
 
-@media (min-width: 1424px) {
+.noscroll::-webkit-scrollbar {
+  display: none !important;
+}
+
+@media (max-width: 1424px) {
   #hero {
     background-attachment: fixed;
     overflow: hidden !important;
@@ -491,6 +499,7 @@ section {
   padding-bottom: 5px;
   position: relative;
   color: #173b6c;
+  overflow-y: hidden !important;
 }
 
 
@@ -735,7 +744,7 @@ section {
   text-align: center;
   background: #fff;
   border-radius: 50px;
-  border: 2px black solid;
+  /* border: 2px black solid; */
   padding: 2px 15px;
 }
 
@@ -1011,6 +1020,7 @@ section {
   font-weight: 600;
   margin-bottom: 5px;
   color: #173a6c;
+  overflow: hidden;
 }
 
 .contact .info p {

@@ -7,7 +7,7 @@ export default function Skills() {
       <div id="main">
         <div id="skills">
           <div className="container">
-            <div className="section-title  pb-2 mt-3">
+            <div className="section-title pb-2 mt-3">
               <h2 className="page-heading text-center rounded p-2 mb-0">
                 Skills
               </h2>

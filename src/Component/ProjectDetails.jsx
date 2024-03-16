@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ProjectDetails({ item, index }) {
+export default function ProjectDetails({ item }) {
   return (
     <>
       <div
@@ -26,6 +26,7 @@ export default function ProjectDetails({ item, index }) {
             style={{
               color: "#173a6c",
               fontWeight: "700",
+              overflow: "hidden",
             }}
           >
             {item.title}
@@ -72,7 +73,12 @@ export default function ProjectDetails({ item, index }) {
           </div>
         </div>
         <div className="p-2 text-center">
-          <h4 className="card-title fw-bold mt-2">{item.title}</h4>
+          <h4
+            className="card-title fw-bold mt-2"
+            style={{ overflow: "hidden" }}
+          >
+            {item.title}
+          </h4>
           <p
             className="card-text mb-1 p-3 text-capitalize"
             style={{ fontSize: "14px" }}

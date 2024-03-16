@@ -15,7 +15,7 @@ export default function About() {
           className="d-flex flex-column ps-2 justify-content-center align-items-center"
         >
           <div className="d-flex justify-content-between flex-wrap" id="main">
-            <div className="text-center ms-2 mb-3">
+            {/* <div className="text-center ms-2 mb-3">
               <img
                 src="/img/profile.jpg"
                 style={{
@@ -24,12 +24,12 @@ export default function About() {
                   border: "10px solid rgba(255, 255, 255, 0.15)",
                 }}
               />
-            </div>
+            </div> */}
             <div className="hero-container ms-2">
               <h1>Shanu Batra</h1>
               <p>
                 I'm
-                <span>
+                <span className="noscroll">
                   <Typewriter
                     options={{
                       strings: [
@@ -39,6 +39,8 @@ export default function About() {
                       ],
                       autoStart: true,
                       loop: true,
+                      cursor: "_",
+                      cursorClassName: "cursorSize",
                     }}
                   ></Typewriter>
                 </span>
@@ -46,7 +48,7 @@ export default function About() {
               <div className="hero-container">
                 <p
                   className="text-capitalize overflow-hidden"
-                  style={{ fontSize: "15px" }}
+                  style={{ fontSize: "14px" }}
                 >
                   Fueled by a passion for innovation, Embracing the dynamic
                   intersection of desgin and technology, my goal is to craft
