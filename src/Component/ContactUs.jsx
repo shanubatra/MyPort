@@ -54,7 +54,7 @@ export default function ContactUs() {
               </p>
             </div>
             <div className="row" data-aos="fade-in">
-              <div className="col-lg-5 d-flex align-items-stretch">
+              <div className="col-md-5 d-flex align-items-stretch">
                 <div className="info">
                   <div className="address">
                     <a
@@ -101,7 +101,7 @@ export default function ContactUs() {
                 </div>
               </div>
 
-              <div className="col-lg-7 mt-4 mt-lg0 d-flex align-items-stretch ">
+              <div className="col-md-6 mt-4 mt-lg0 d-flex align-items-stretch ">
                 <form className="php-email-form" onSubmit={postData}>
                   {message === "" ? (
                     <p className="text-center text-capitalize text-success fw-bold">

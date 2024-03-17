@@ -11,14 +11,13 @@ export default function Courses() {
               <h2 className="page-heading text-center rounded p-2 mb-0">
                 Courses
               </h2>
-            </div>
-            <div className="section-title">
               <p className="text-capitalize text-center text-capitalize fw-bold">
                 "I've immersed myself in a comprehensive learning journey. These
                 experiences have equiped me with a solid foundation in
                 development!!!"
               </p>
             </div>
+
             <div className="row">
               <div className="col-lg-6">
                 {course.map((item, index) => {

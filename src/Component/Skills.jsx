@@ -11,9 +11,7 @@ export default function Skills() {
               <h2 className="page-heading text-center rounded p-2 mb-0">
                 Skills
               </h2>
-            </div>
-            <div className="section-title text-center text-capitalize fw-bold">
-              <p>
+              <p className="text-center text-capitalize fw-bold">
                 "i showcase a diverse set of skills that reflect my versatility
                 and expertise"
               </p>
@@ -21,7 +19,7 @@ export default function Skills() {
             <div className="row skills-content mt-4 mb-4">
               {skills.map((item, index) => {
                 return (
-                  <div key={index} className="col-lg-6 mb-3">
+                  <div key={index} className="col-lg-5 mb-3">
                     <div className="card card-shadow">
                       <div className="card-body text-center">
                         <h5 className="card-title fw-bold text-main mb-1">

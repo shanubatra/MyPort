@@ -54,7 +54,7 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 35px;
+  right: 45px;
   bottom: 15px;
   z-index: 996;
   background: #173a6c !important;
@@ -312,6 +312,26 @@ h6 {
   }
 }
 
+@media (max-width: 1025px) {
+  #header {
+    left: -300px;
+  }
+
+  #hero {
+    margin-left: 0 !important;
+  }
+
+  #main {
+    margin-left: 0 !important;
+  }
+
+  .container,
+  .container-fluid {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -403,6 +423,8 @@ h6 {
   background: url("/img/port-bg.jpg") top center;
   background-size: cover;
   overflow-x: hidden !important;
+  background-repeat: no-repeat;
+  margin-left: 70px;
 }
 
 #hero:before {
@@ -462,6 +484,10 @@ h6 {
     overflow: hidden !important;
   }
 
+  #main {
+    margin-left: 250px;
+  }
+
   body {
     overflow-x: hidden !important;
   }
@@ -471,6 +497,10 @@ h6 {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+  }
+
+  #hero {
+    margin-left: 0;
   }
 
   #hero h2 {
@@ -490,6 +520,8 @@ section {
 
 .section-title {
   padding-bottom: 30px;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 .section-title h2 {

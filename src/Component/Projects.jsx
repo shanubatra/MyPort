@@ -14,9 +14,7 @@ export default function Projects() {
               <h2 className="page-heading text-center rounded p-2 mb-0">
                 Projects
               </h2>
-            </div>
-            <div className="section-title text-center">
-              <p className="fw-bold text-capitalize">
+              <p className="fw-bold text-capitalize text-center">
                 " I bring a unique blend of creativity and analytical thinking
                 to every project, ensuring innovative solution and impactful
                 results."
@@ -54,7 +52,7 @@ export default function Projects() {
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-12 col-md-9 d-flex flex-wrap justify-content-center">
+              <div className="col-lg-11 col-md-9 d-flex flex-wrap justify-content-center">
                 {type === "all"
                   ? projects
                       .sort((a, b) => a.id - b.id)

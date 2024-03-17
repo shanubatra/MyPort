@@ -6,16 +6,17 @@ export default function ProjectDetails({ item }) {
       <div
         className="col-xl-3 col-lg-3 col-md-6 rounded position-relative m-2 portfolio-wrap card card-shadow"
         style={{
-          width: "370px",
+          width: "320px",
         }}
       >
         <div className="rounded">
           <img
             style={{
               height: 250,
-              padding: "20px",
+              paddingTop: "10px",
+              padding: "5px",
             }}
-            className="img-fluid w-100 rounded "
+            className="img-fluid w-100 rounded"
             alt=""
             src={`/img/${item.pic}`}
           />

@@ -12,12 +12,11 @@ export default function Education() {
               <h2 className="page-heading text-center rounded p-2 mb-0">
                 Education
               </h2>
-            </div>
-            <div className="section-title">
               <p className="text-capitalize text-center text-capitalize fw-bold">
                 "My Academic journey!!!"
               </p>
             </div>
+         
             <div className="row mt-0 ">
               <div className="col-lg-7 mb-1">
                 {education.map((item, index) => {
