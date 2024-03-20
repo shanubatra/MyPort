@@ -5,7 +5,10 @@ body {
   font-family: "Kurale" !important;
 
 }
-
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   color: #272829;
   box-sizing: border-box;
@@ -424,7 +427,7 @@ h6 {
   background-size: cover;
   overflow-x: hidden !important;
   background-repeat: no-repeat;
-  margin-left: 70px;
+  /* margin-left: 70px; */
 }
 
 #hero:before {

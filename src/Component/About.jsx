@@ -9,7 +9,7 @@ import ContactUs from "./ContactUs";
 export default function About() {
   return (
     <>
-      <div>
+      <div >
         <div
           id="hero"
           className="d-flex flex-column ps-2 justify-content-center align-items-center"
@@ -48,7 +48,7 @@ export default function About() {
               <div className="hero-container">
                 <p
                   className="text-capitalize overflow-hidden"
-                  style={{ fontSize: "14px" }}
+                  style={{ fontSize: "14px", width: "75%" }}
                 >
                   Fueled by a passion for innovation, Embracing the dynamic
                   intersection of desgin and technology, my goal is to craft
