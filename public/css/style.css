@@ -775,13 +775,11 @@ section {
 
 
 .portfolio #portfolio-flters {
-  padding: 4px 10px !important;
-  margin: 0 auto 35px auto;
+
   list-style: none;
   text-align: center;
   background: #fff;
   border-radius: 50px;
-  /* border: 2px black solid; */
   padding: 2px 15px;
 }
 
@@ -789,7 +787,7 @@ section {
   cursor: pointer;
   display: inline-block;
   padding: 1px 15px 0 15px;
-  font-size: 14px;
+  font-size: 21px;
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
