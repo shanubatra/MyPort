@@ -21,7 +21,7 @@ export default function Projects() {
               </p>
             </div>
 
-            <div className="row position-relative">
+            <div className="row position-relative mt-4">
               <div className="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
                   <li
