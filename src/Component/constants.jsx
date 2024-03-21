@@ -18,18 +18,18 @@ export const projects = [
       "Material Ui",
     ],
   },
-  {
-    type: "web",
-    id: 2,
-    link: "https://github.com/shanubatra/Portfolio.git",
-    title: "Portfolio Website",
-    pic: "portfolio.png",
-    live: "https://shanubatra-portfolio.vercel.app/",
+  // {
+  //   type: "web",
+  //   id: 2,
+  //   link: "https://github.com/shanubatra/Portfolio.git",
+  //   title: "Portfolio Website",
+  //   pic: "portfolio.png",
+  //   live: "https://shanubatra-portfolio.vercel.app/",
 
-    decription:
-      "Explore a curated collection of my work, highlighting a fusion of creativity and proficiency. From design projects to written pieces, each item is a testament to my skills and passion. Navigate seamlessly through sections, gaining insights into my professional journey. ",
-    tech: ["React JS", "Bootstrap", "JavaScript", "CSS", "Html"],
-  },
+  //   decription:
+  //     "Explore a curated collection of my work, highlighting a fusion of creativity and proficiency. From design projects to written pieces, each item is a testament to my skills and passion. Navigate seamlessly through sections, gaining insights into my professional journey. ",
+  //   tech: ["React JS", "Bootstrap", "JavaScript", "CSS", "Html"],
+  // },
   {
     type: "web",
     id: 4,
@@ -158,11 +158,6 @@ export const skills = [
         name: "TypeScript",
         image: "skills/typescript.jpg",
       },
-
-      {
-        name: "Bootstrap",
-        image: "skills/b.png",
-      },
       {
         name: "Material UI",
         image: "skills/MaterialUI.svg",
@@ -172,6 +167,10 @@ export const skills = [
         image: "skills/Tailwind.png",
       },
       {
+        name: "Bootstrap",
+        image: "skills/b.png",
+      },
+      {
         name: "Flutter",
         image: "skills/flutter.png",
       },
@@ -179,6 +178,30 @@ export const skills = [
         name: "Dart",
         image: "skills/dart.png",
       },
+    ],
+  },
+
+  {
+    title: "Development",
+    skills: [
+      {
+        name: "VS Code",
+        image: "skills/vscode.png",
+      },
+      {
+        name: "React DevTools",
+        image: "skills/react.jpg",
+      },
+
+      {
+        name: "Dart DevTools",
+        image: "skills/dart.png",
+      },
+      {
+        name: "Git",
+        image: "skills/Git.jpg",
+      },
+      { name: "Android Studio", image: "skills/andstudio.png" },
     ],
   },
   {
@@ -198,29 +221,6 @@ export const skills = [
         name: "Firebase",
         image: "skills/firebase.svg",
       },
-    ],
-  },
-  {
-    title: "Development",
-    skills: [
-      {
-        name: "VS Code",
-        image: "skills/vscode.png",
-      },
-      {
-        name: "Git",
-        image: "skills/Git.jpg",
-      },
-      {
-        name: "React DevTools",
-        image: "skills/react.jpg",
-      },
-
-      {
-        name: "Dart DevTools",
-        image: "skills/dart.png",
-      },
-      { name: "Android Studio", image: "skills/andstudio.png" },
     ],
   },
   {

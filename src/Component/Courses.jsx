@@ -6,7 +6,7 @@ export default function Courses() {
     <>
       <div id="main">
         <div id="resume" className="resume pt-0">
-          <div className="container ">
+          <div className="container-fluid ">
             <div className="section-title pb-2 mt-3">
               <h2 className="page-heading text-center rounded p-2 mb-0">
                 Courses

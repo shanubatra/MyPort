@@ -39,7 +39,7 @@ export default function ContactUs() {
     <>
       <div id="main">
         <div id="contact" className="contact">
-          <div className="container mt-3">
+          <div className="container-fluid mt-3">
             {" "}
             <div className="section-title pb-0 mt-3">
               <h2 className="page-heading text-center rounded p-2 mb-0">

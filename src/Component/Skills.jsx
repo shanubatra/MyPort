@@ -19,19 +19,22 @@ export default function Skills() {
             <div className="row skills-content mt-4 mb-4">
               {skills.map((item, index) => {
                 return (
-                  <div key={index} className="col-lg-5 mb-3">
+                  <div
+                    key={index}
+                    className="col-lg-5 col-md-12 mb-4 container-fluid"
+                  >
                     <div className="card card-shadow">
                       <div className="card-body text-center">
                         <h5 className="card-title fw-bold text-main mb-1">
                           {item.title}
                         </h5>
                         <div className="card no-border ">
-                          <div className="d-flex justify-content-evenly flex-wrap">
+                          <div className="d-flex justify-content-evenly parent flex-wrap">
                             {item.skills.map((item, index) => {
                               return (
                                 <div
                                   key={index}
-                                  className=" p-3 align-items-baseline m-2 d-flex flex-row card-shadow border "
+                                  className="p-3 align-items-baseline m-2 child d-flex flex-row card-shadow border "
                                   style={{ borderRadius: "20px" }}
                                 >
                                   <span>

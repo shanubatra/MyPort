@@ -9,7 +9,7 @@ import ContactUs from "./ContactUs";
 export default function About() {
   return (
     <>
-      <div >
+      <div>
         <div
           id="hero"
           className="d-flex flex-column ps-2 justify-content-center align-items-center"
@@ -21,7 +21,7 @@ export default function About() {
                 style={{
                   borderRadius: "50%",
                   width: "300px",
-                  border: "10px solid rgba(255, 255, 255, 0.15)",
+                  border: "10px solid rgba(0, 0, 0, 0.125)",
                 }}
               />
             </div>
@@ -39,7 +39,6 @@ export default function About() {
                       ],
                       autoStart: true,
                       loop: true,
-                      cursor: "_",
                       cursorClassName: "cursorSize",
                     }}
                   ></Typewriter>

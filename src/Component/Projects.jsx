@@ -9,7 +9,7 @@ export default function Projects() {
     <>
       <div id="main">
         <div id="portfolio" className="portfolio section-bg">
-          <div className="container mb-3 mt-3">
+          <div className="container-fluid mb-3 mt-3">
             <div className="section-title pb-2 mt-3">
               <h2 className="page-heading text-center rounded p-2 mb-0">
                 Projects
@@ -52,24 +52,26 @@ export default function Projects() {
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-11 col-md-9 d-flex flex-wrap justify-content-center">
-                {type === "all"
-                  ? projects
-                      .sort((a, b) => a.id - b.id)
-                      .map((item, index) => {
-                        return <ProjectDetails item={item} key={index} />;
-                      })
-                  : type === "web"
-                  ? projects
-                      .filter((item) => item.type === "web")
-                      .map((item, index) => {
-                        return <ProjectDetails item={item} key={index} />;
-                      })
-                  : projects
-                      .filter((item) => item.type === "app")
-                      .map((item, index) => {
-                        return <ProjectDetails item={item} key={index} />;
-                      })}
+              <div className="container-fluid col-lg-12">
+                <div className="row flex-wrap justify-content-center w-100">
+                  {type === "all"
+                    ? projects
+                        .sort((a, b) => a.id - b.id)
+                        .map((item, index) => {
+                          return <ProjectDetails item={item} key={index} />;
+                        })
+                    : type === "web"
+                    ? projects
+                        .filter((item) => item.type === "web")
+                        .map((item, index) => {
+                          return <ProjectDetails item={item} key={index} />;
+                        })
+                    : projects
+                        .filter((item) => item.type === "app")
+                        .map((item, index) => {
+                          return <ProjectDetails item={item} key={index} />;
+                        })}
+                </div>
               </div>
             </div>
           </div>

@@ -5,10 +5,12 @@ body {
   font-family: "Kurale" !important;
 
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
 }
+
 body {
   color: #272829;
   box-sizing: border-box;
@@ -57,7 +59,7 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 45px;
+  right: 75px;
   bottom: 15px;
   z-index: 996;
   background: #173a6c !important;
@@ -254,7 +256,7 @@ h6 {
   text-decoration: none;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1399px) {
   #main {
     margin-left: 160px !important;
     overflow: hidden;
@@ -423,7 +425,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("/img/port-bg.jpg") top center;
+  background: url("/img/bg-2.jpg") top center;
   background-size: cover;
   overflow-x: hidden !important;
   background-repeat: no-repeat;
@@ -473,7 +475,7 @@ h6 {
   color: #fff;
   padding-bottom: 0px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #173a6ca1;
+  border-bottom: 3px solid #fff;
   overflow: hidden;
 }
 
@@ -1371,4 +1373,8 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: grey;
+}
+
+.parent:hover>.child:not(:hover) {
+  opacity: 0.4;
 }

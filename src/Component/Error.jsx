@@ -6,7 +6,7 @@ export default function Error() {
     <>
       {/* <!-- 404 Start --> */}
       <div className="container-fluid py-5 mb-5">
-        <div className="container py-5 text-center fw-bold">
+        <div className="container-fluid py-5 text-center fw-bold">
           <div className="row justify-content-center">
             <div className="col-lg-6">
               <i className="bi bi-exclamation-triangle display-1 text-danger"></i>

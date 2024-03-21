@@ -6,7 +6,7 @@ export default function Education() {
     <>
       <div id="main" className="mt-2">
         <div id="resume" className="resume mt-0 pt-0">
-          <div className="container ">
+          <div className="container-fluid">
             {" "}
             <div className="section-title mb-0 pb-2">
               <h2 className="page-heading text-center rounded p-2 mb-0">
@@ -16,7 +16,6 @@ export default function Education() {
                 "My Academic journey!!!"
               </p>
             </div>
-         
             <div className="row mt-0 ">
               <div className="col-lg-7 mb-1">
                 {education.map((item, index) => {
