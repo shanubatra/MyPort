@@ -1373,6 +1373,6 @@ body::-webkit-scrollbar-thumb {
   background-color: grey;
 }
 
-.parent:hover>.child:not(:hover) {
-  opacity: 0.4;
+.child:not(:hover) {
+  opacity: 0.7;
 }
