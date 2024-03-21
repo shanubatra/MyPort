@@ -16,7 +16,11 @@ export default function Skills() {
                 and expertise"
               </p>
             </div>
-            <div className="row skills-content mt-4 mb-4">
+            <div
+              className="row skills-content mt-4 mb-4 "
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
               {skills.map((item, index) => {
                 return (
                   <div
