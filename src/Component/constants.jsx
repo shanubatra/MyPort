@@ -21,14 +21,14 @@ export const projects = [
   // {
   //   type: "web",
   //   id: 2,
-  //   link: "https://github.com/shanubatra/Portfolio.git",
-  //   title: "Portfolio Website",
-  //   pic: "portfolio.png",
-  //   live: "https://shanubatra-portfolio.vercel.app/",
+  //   link: "https://github.com/shanubatra/Modern-Website.git",
+  //   title: "HooBank Modern Website",
+  //   pic: "hoobank.png",
+  //   live: "https://modern-website-psi.vercel.app/",
 
   //   decription:
-  //     "Explore a curated collection of my work, highlighting a fusion of creativity and proficiency. From design projects to written pieces, each item is a testament to my skills and passion. Navigate seamlessly through sections, gaining insights into my professional journey. ",
-  //   tech: ["React JS", "Bootstrap", "JavaScript", "CSS", "Html"],
+  //     " I've created a dynamic and engaging website to showcase my portfolio, skills, and professional journey. This platform serves as a central hub for visitors to explore my expertise, projects, and achievements.",
+  //   tech: ["React JS", "Tailwind", "JavaScript", "CSS", "Html"],
   // },
   {
     type: "web",
@@ -192,7 +192,6 @@ export const skills = [
         name: "React DevTools",
         image: "skills/react.jpg",
       },
-
       {
         name: "Dart DevTools",
         image: "skills/dart.png",
@@ -200,6 +199,10 @@ export const skills = [
       {
         name: "Git",
         image: "skills/Git.jpg",
+      },
+      {
+        name: "Vitejs",
+        image: "skills/Vitejs-logo.svg",
       },
       { name: "Android Studio", image: "skills/andstudio.png" },
     ],
