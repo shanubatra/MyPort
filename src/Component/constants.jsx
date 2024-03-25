@@ -18,18 +18,18 @@ export const projects = [
       "Material Ui",
     ],
   },
-  // {
-  //   type: "web",
-  //   id: 2,
-  //   link: "https://github.com/shanubatra/Modern-Website.git",
-  //   title: "HooBank Modern Website",
-  //   pic: "hoobank.png",
-  //   live: "https://modern-website-psi.vercel.app/",
+  {
+    type: "web",
+    id: 2,
+    link: "https://github.com/shanubatra/Modern-Website.git",
+    title: "HooBank Modern Website",
+    pic: "hoobank.png",
+    live: "https://modern-website-psi.vercel.app/",
 
-  //   decription:
-  //     " I've created a dynamic and engaging website to showcase my portfolio, skills, and professional journey. This platform serves as a central hub for visitors to explore my expertise, projects, and achievements.",
-  //   tech: ["React JS", "Tailwind", "JavaScript", "CSS", "Html"],
-  // },
+    decription:
+      " I've created a dynamic and engaging website to showcase my portfolio, skills, and professional journey. This platform serves as a central hub for visitors to explore my expertise, projects, and achievements.",
+    tech: ["React JS", "Tailwind", "JavaScript", "CSS", "Html"],
+  },
   {
     type: "web",
     id: 4,
