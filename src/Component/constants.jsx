@@ -202,7 +202,7 @@ export const skills = [
       },
       {
         name: "Vitejs",
-        image: "skills/Vitejs-logo.svg",
+        image: "skills/Vitejs-logo.svg.png",
       },
       { name: "Android Studio", image: "skills/andstudio.png" },
     ],
