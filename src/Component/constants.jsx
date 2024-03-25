@@ -27,7 +27,7 @@ export const projects = [
     live: "https://modern-website-psi.vercel.app/",
 
     decription:
-      " I've created a dynamic and engaging website to showcase my portfolio, skills, and professional journey. This platform serves as a central hub for visitors to explore my expertise, projects, and achievements.",
+      "A frontend-only website to practice tailwind css with Reactjs",
     tech: ["React JS", "Tailwind", "JavaScript", "CSS", "Html"],
   },
   {
