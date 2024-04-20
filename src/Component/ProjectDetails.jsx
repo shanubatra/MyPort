@@ -63,8 +63,8 @@ export default function ProjectDetails({ item }) {
                   color: "white",
                 }}
                 target="_blank"
-                rel="noreferrer"
-                className="btn-bg portfolio-lightbox rounded"
+                rel="noreferrer" 
+                className="btn-bg portflkolio-lightbox rounded"
               >
                 <span style={{ fontSize: "18px" }}>Live App</span>
               </a>

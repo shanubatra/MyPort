@@ -132,7 +132,7 @@ export default function Navbar() {
                 </nav>
 
                 <a
-                  href="/img/My_Cv.pdf"
+                  href="/img/My_Cv_.pdf"
                   className="m-2 btn btn-pink w-100 fw-bold p-4 "
                   download=""
                 >
