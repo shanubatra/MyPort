@@ -312,7 +312,7 @@ export const course = [
     id: 3,
     name: "Flutter & Dart-The Complete Guide ",
     course: "Udemy",
-    year: "July 2023 - Sept 32018",
+    year: "July 2023 - Sept 2018",
     li1: "I learnt Flutter Framework for building native iOS and Android apps",
     li2: "",
     li3: "",
