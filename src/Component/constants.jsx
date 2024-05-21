@@ -26,8 +26,7 @@ export const projects = [
     pic: "hoobank.png",
     live: "https://modern-website-psi.vercel.app/",
 
-    decription:
-      "A frontend-only website to practice tailwind css with Reactjs",
+    decription: "A frontend-only website to practice tailwind css with Reactjs",
     tech: ["React JS", "Tailwind", "JavaScript", "CSS", "Html"],
   },
   {
@@ -281,7 +280,7 @@ export const education = [
     name: "Hindu Vidya Peeth School,Sonipat",
     course: "CBSE(X)",
     grade: "7.4 C.G.P.A",
-    year: "Apr 2018 - Apr 2019",
+    year: "Apr 2016 - Apr 2017",
     decription:
       "I Completed My Class 10 Education At Hindu Vidya Peeth School Sonipat",
   },
@@ -302,7 +301,7 @@ export const course = [
     id: 1,
     name: "Python programming Language",
     course: "Udemy",
-    year: "July 2023 - Sept 2018",
+    year: "July 2023 - Sept 2023",
     li1: "The introductory phase of the Python Course, spanning the first month, focuses primarliy on basic of OPPS    programming concepts.",
     li2: "It covers all python syntax, data types, conditional    statements ,loops and basic functions etc.",
     li3: "This foundational knowledge provides a solid understanding for those new to programming Language.",
@@ -312,7 +311,7 @@ export const course = [
     id: 3,
     name: "Flutter & Dart-The Complete Guide ",
     course: "Udemy",
-    year: "July 2023 - Sept 2018",
+    year: "May 2023 - July 2023",
     li1: "I learnt Flutter Framework for building native iOS and Android apps",
     li2: "",
     li3: "",
