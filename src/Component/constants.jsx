@@ -1,6 +1,24 @@
 export const projects = [
   {
     type: "web",
+    id: 2,
+    link: "https://github.com/shanubatra/Blog_Website.git",
+    title: "Blogs Website",
+    pic: "blog.png",
+    live: "h",
+    decription:
+      "Welcome to Blog Website!, A dynamic platform designed to inspire, inform, and connect readers from around the world.We have a wide range of topics, including technology, lifestyle, travel , education and latest news. Ensuring there's something for everyone Become a part of our growing community. Feel free to Express your self!s",
+    tech: [
+      "React JS",
+      "Redux",
+      "Redux-Saga",
+      "Tailwind CSS",
+      "JSON Server",
+      "Material Ui",
+    ],
+  },
+  {
+    type: "web",
     id: 1,
     link: "https://github.com/shanubatra/E-Store-Application.git",
     title: "E-commerce Website",
@@ -213,7 +231,10 @@ export const skills = [
         name: "MySQL",
         image: "skills/mysql.png",
       },
-
+      {
+        name: "PHP",
+        image: "skills/php.png",
+      },
       {
         name: "JSON",
         image: "skills/jdon.png",
