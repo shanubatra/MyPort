@@ -262,7 +262,7 @@ export default function Navbar() {
             </nav>
 
             <a
-              href="/img/backend_CV.pdf"
+              href="/shanu_batra_cv (2).pdf"
               className="m-2 btn btn-pink w-100 fw-bold p-4 "
               download=""
             >
