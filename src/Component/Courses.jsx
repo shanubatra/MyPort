@@ -9,7 +9,7 @@ export default function Courses() {
           <div className="container-fluid ">
             <div className="section-title pb-2 mt-3">
               <h2 className="page-heading text-center rounded p-2 mb-0">
-                Courses
+                Experience
               </h2>
               <p className="text-capitalize text-center text-capitalize fw-bold">
                 "I've immersed myself in a comprehensive learning journey. These

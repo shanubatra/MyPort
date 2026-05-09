@@ -132,7 +132,7 @@ export default function Navbar() {
                 </nav>
 
                 <a
-                  href="/img/backend_CV.pdf"
+                  href="/img/shanubatraCV.pdf"
                   download=""
                   className="m-2 btn btn-pink w-100 fw-bold p-4 "
                 >
@@ -225,7 +225,7 @@ export default function Navbar() {
                     style={{ textDecoration: "none" }}
                   >
                     <i className="fa fa-award"></i>
-                    <span>Course</span>
+                    <span>Experience</span>
                   </Link>
                 </li>
                 <li>
@@ -262,7 +262,7 @@ export default function Navbar() {
             </nav>
 
             <a
-              href="/img/backend_CV.pdf"
+              href="/img/shanubatraCV.pdf"
               className="m-2 btn btn-pink w-100 fw-bold p-4 "
               download=""
             >

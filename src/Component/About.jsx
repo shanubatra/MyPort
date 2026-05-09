@@ -23,6 +23,7 @@ export default function About() {
                   width: "300px",
                   border: "10px solid rgba(0, 0, 0, 0.125)",
                 }}
+                alt="profile"
               />
             </div>
             <div className="hero-container ms-2">
@@ -34,8 +35,8 @@ export default function About() {
                     options={{
                       strings: [
                         "Front-End developer",
-                        "Programmer",
-                        "Developer",
+                        "PHP Full Stack Developer",
+                        "Coeder",
                       ],
                       autoStart: true,
                       loop: true,

@@ -310,15 +310,24 @@ export const education = [
 export const course = [
   {
     id: 0,
+    name: "PHP Full Stack Developer",
+    course: "Exact IT Solutions Pvt. Ltd.",
+    year: "Oct 2024 - Present",
+    li1: "Developed and maintained dynamic, responsive and high-performance web applications using PHP, jQuery, AJAX and MySQL ensuring a seamless user experience, while adhering for maintainable and clean code.",
+    li2: "Created dynamic PHP APIs with AJAX request to deliver real-time data updates, leveraging PDO MySQL for database queries, ensuring high security and performance",
+    li3: "",
+  },
+  {
+    id: 1,
     name: "PHP Full Stack WEB Development",
     course: "Ducat-The IT Training School",
-    year: "Jan 2024 - Aug 2024",
+    year: "April 2024 - Oct 2024",
     li1: "The PHP Full Stack Courses covers a comprehensive range of WEB Development topics includes Front-end Development and Back-end Development programming languages as well as popular frameworks like Laravel and React etc.",
     li2: "Engaged in comprehensive training covering HTML, CSS,   JavaScript, Bootstrap, React.JS, React-Redux, Redux-Saga, PHP, Laravel and Mysql.",
     li3: "It concludes with a capstone project allowing us to showcase their acquired skills iin a real-world applications like an E-commerce Web Application",
   },
   {
-    id: 1,
+    id: 2,
     name: "Python programming Language",
     course: "Udemy",
     year: "July 2023 - Sept 2023",
