@@ -19,13 +19,13 @@ export default function ContactUs() {
   }
   async function postData(e) {
     e.preventDefault();
-    let response = await fetch("http://localhost:8000/feedback", {
+    /*  let response = await fetch("http://localhost:8000/feedback", {
       method: "POST",
       headers: {
         "content-type": "application-json",
       },
       body: JSON.stringify(data),
-    });
+    });*/
 
     setData({
       name: "",
