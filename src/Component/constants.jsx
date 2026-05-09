@@ -335,7 +335,7 @@ export const course = [
     li2: "It covers all python syntax, data types, conditional    statements ,loops and basic functions etc.",
     li3: "This foundational knowledge provides a solid understanding for those new to programming Language.",
     li4: "",
-  },
+  } /*,
   {
     id: 3,
     name: "Flutter & Dart-The Complete Guide ",
@@ -345,5 +345,5 @@ export const course = [
     li2: "",
     li3: "",
     li4: "",
-  },
+  },*/,
 ];
