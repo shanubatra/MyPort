@@ -36,7 +36,7 @@ export default function About() {
                       strings: [
                         "Front-End developer",
                         "PHP Full Stack Developer",
-                        "Coeder",
+                        "Coder",
                       ],
                       autoStart: true,
                       loop: true,
